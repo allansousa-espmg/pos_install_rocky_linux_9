@@ -29,7 +29,7 @@ sudo firewall-cmd --permanent --add-service=https
 sudo firewall-cmd --reload
 
 # Instalar MySQL 8.0
-sudo dnf install @mysql:8.0 -y
+sudo dnf -y install mysql-server
 
 # Iniciar e habilitar o serviço do MySQL
 sudo systemctl start mysqld
